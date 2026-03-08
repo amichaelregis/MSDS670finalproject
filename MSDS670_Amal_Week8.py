@@ -15,10 +15,8 @@ KEY FEATURES:
    100+ Mbps) with socio-economic indicators, merging USDA Historical Income 
    baselines (2022) and SAIPE Estimates (2024).
    
-2. GEOSPATIAL OPTIMIZATION: Processes US Census Bureau TIGER/Line shapefiles. 
-   Includes geometry simplification (Douglas-Peucker algorithm) to reduce 
-   Topographic complexity, ensuring high-performance browser rendering 
-   without losing county-level boundary integrity.
+2. GEOSPATIAL MERGE: Processes US Census Bureau TIGER/Line shapefiles. 
+   The Pandas DF is merged with the Geopandas DF with shapefiles.
 
 3. DYNAMIC TOOLTIPS: Implements conditional logic to display year-specific 
    economic data, mapping Median Household Income to the corresponding 
